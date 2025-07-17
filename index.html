@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <style>
+      .navbar {
+        background-color: #333;
+        color: white;
+        padding: 10px 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .navbar .logo {
+        font-weight: bold;
+        font-size: 1.2em;
+      }
+
+      .navbar .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+      }
+
+      .navbar .nav-links a {
+        text-decoration: none;
+        color: white;
+        transition: color 0.3s;
+      }
+
+      .navbar .nav-links a:hover {
+        color: #ffcc00;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">🎧 MoodVibes</div>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="emoji.html">Emoji Mood Translator</a></li>
+          <li><a href="music.html">Music Mood Matcher</a></li>
+        </ul>
+      </nav>
+    </header>
+  </body>
+</html>
