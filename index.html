@@ -4,37 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Home</title>
-    <style>
-      .navbar {
-        background-color: #333;
-        color: white;
-        padding: 10px 20px;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-      }
-
-      .navbar .logo {
-        font-weight: bold;
-        font-size: 1.2em;
-      }
-
-      .navbar .nav-links {
-        list-style: none;
-        display: flex;
-        gap: 20px;
-      }
-
-      .navbar .nav-links a {
-        text-decoration: none;
-        color: white;
-        transition: color 0.3s;
-      }
-
-      .navbar .nav-links a:hover {
-        color: #ffcc00;
-      }
-    </style>
+    <link rel="stylesheet" href="styles/home.css" />
   </head>
   <body>
     <header>
@@ -47,5 +17,64 @@
         </ul>
       </nav>
     </header>
+    <main>
+      <section class="hero-section">
+        <div class="hero-text">
+          <h1>Mood Music Matcher</h1>
+          <p>
+            Match your mood to the perfect playlist.<br />
+            Select your mood and discover music that fits how you feel!
+          </p>
+          <a href="music.html" class="main-btn">Find Your Mood Music</a>
+        </div>
+        <div class="hero-image">
+          <img
+            src="images/music3.jpg"
+            alt="music headset"
+            width="350"
+            height="350"
+          />
+        </div>
+      </section>
+
+      <section class="how-it-works-card">
+        <h2>How it works</h2>
+        <p class="subtitle">Get started in three easy steps!</p>
+        <div class="steps-container">
+          <div class="step">
+            <span class="step-icon">😊</span>
+            <span class="step-title">Select your mood</span>
+            <span class="step-desc">Pick how you feel right now.</span>
+          </div>
+          <div class="step">
+            <span class="step-icon">🎶</span>
+            <span class="step-title">Browse curated songs</span>
+            <span class="step-desc">See music that matches your mood.</span>
+          </div>
+          <div class="step">
+            <span class="step-icon">▶️</span>
+            <span class="step-title">Click to play and enjoy!</span>
+            <span class="step-desc">Listen and lift your spirits.</span>
+          </div>
+        </div>
+        <a href="music.html" class="btn mood-btn">Select Your Mood</a>
+      </section>
+
+      <aside class="fun-fact">
+        <blockquote>
+          🎵 Did you know? Listening to music can boost your mood and
+          creativity.
+        </blockquote>
+      </aside>
+    </main>
+
+    <footer>
+      <div class="footer-content">
+        <span
+          >© 2025 Mood Music Matcher. Made with
+          <span style="color: #e25555">❤️</span>.</span
+        >
+      </div>
+    </footer>
   </body>
 </html>

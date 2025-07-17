@@ -1,64 +1,119 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Emoji Mood Translator</title>
-    <link rel="stylesheet" href="/styles/emoji.css">
-</head>
-<body>
-    <div class="container">
-        <div>
-            <a href="/index.html" class="back-button">Back to Home</a>
-        </div>
-        <div class="header">
-            <h1>Welcome to MoodVibes</h1>
-        </div>
-        <hr class="divider">
-        <div class="content">
-            <h2>How are you feeling today?</h2>
-        </div>
-        <div >
-            <div class="content">
-            <input type="text" placeholder="Type your mood here..." name="input-text">
-            <button class="submit-button">Submit</button>
-        </div>
-        </div>
 
+    <link rel="stylesheet" href="/styles/emoji.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div>
+        <a href="/index.html" class="back-button">Back to Home</a>
+      </div>
+      <div class="header">
+        <h1>Welcome to MoodVibes</h1>
+      </div>
+      <hr class="divider" />
+      <div class="content">
+        <h2>How are you feeling today?</h2>
+      </div>
+      <div>
         <div class="content">
-            <p>- OR -</p>
+          <input
+            type="text"
+            placeholder="Type your mood here..."
+            name="input-text"
+          />
+          <button class="submit-button">Submit</button>
         </div>
-        <div class="content">
-            <h2>Choose an emoji that represents your mood:</h2>
-        </div>
-        <div class="emoji-buttons">
-            <button onclick="showPopupCard('happy')"><img src="/images/joy.jpeg"></button>
-            <button onclick="showPopupCard('sad')"><img src="/images/sad.jpeg"></button>
-            <button onclick="showPopupCard('anger')"><img src="/images/anger.jpeg"></button>
-            <button onclick="showPopupCard('scared')"><img src="/images/scared.jpeg"></button>
-            <button onclick="showPopupCard('surprised')"><img src="/images/surprised.jpeg"></button>
-            <button onclick="showPopupCard('envy')"><img src="/images/envy.jpeg"></button>
-            <button onclick="showPopupCard('tired')"><img src="/images/bored.jpeg"></button>
-            <button onclick="showPopupCard('fear')"><img src="/images/fear.jpeg"></button>
-            <button onclick="showPopupCard('anxiety')"><img src="/images/anxiety.jpeg"></button>
-            <button onclick="showPopupCard('love')"><img src="/images/lov.jpeg"></button>
-            <button onclick="showPopupCard('emberassed')"><img src="/images/emberassed.jpeg"></button> 
-            <button onclick="showPopupCard('confused')"><img src="/images/confused.jpeg"></button>
-            <button onclick="showPopupCard('neutral')"><img src="/images/neutral.jpeg"></button>
-            <button onclick="showPopupCard('cry')"><img src="/images/cry.jpeg"></button>
-            <button onclick="showPopupCard('relaxed')"><img src="/images/relaxed.jpeg"></button>
-            <button onclick="showPopupCard('excited')"><img src="/images/excited.jpeg"></button>
-            <button onclick="showPopupCard('curious')"><img src="/images/curious.jpeg"></button>
-            <button onclick="showPopupCard('hopeful')"><img src="/images/hopeful.jpeg"></button>
-            <button onclick="showPopupCard('grateful')"><img src="/images/grateful.jpeg"></button>
-            <button onclick="showPopupCard('proud')"><img src="/images/proud.jpeg"></button>
-            <button onclick="showPopupCard('disappointed')"><img src="/images/disappointed.jpeg"></button>
-            <button onclick="showPopupCard('sick')"><img src="/images/sick.jpeg"></button>
-            <button onclick="showPopupCard('inspired')"><img src="/images/inspired.jpeg"></button>
-            <button onclick="showPopupCard('relieved')"><img src="/images/releived.jpeg"></button>
-            <button onclick="showPopupCard('lonely')"><img src="/images/lonely.jpeg"></button>
-        </div>
+      </div>
+
+      <div class="content">
+        <p>- OR -</p>
+      </div>
+      <div class="content">
+        <h2>Choose an emoji that represents your mood:</h2>
+      </div>
+      <div class="emoji-buttons">
+        <button onclick="showPopupCard('happy')">
+          <img src="/images/joy.jpeg" />
+        </button>
+        <button onclick="showPopupCard('sad')">
+          <img src="/images/sad.jpeg" />
+        </button>
+        <button onclick="showPopupCard('anger')">
+          <img src="/images/anger.jpeg" />
+        </button>
+        <button onclick="showPopupCard('scared')">
+          <img src="/images/scared.jpeg" />
+        </button>
+        <button onclick="showPopupCard('surprised')">
+          <img src="/images/surprised.jpeg" />
+        </button>
+        <button onclick="showPopupCard('envy')">
+          <img src="/images/envy.jpeg" />
+        </button>
+        <button onclick="showPopupCard('tired')">
+          <img src="/images/bored.jpeg" />
+        </button>
+        <button onclick="showPopupCard('fear')">
+          <img src="/images/fear.jpeg" />
+        </button>
+        <button onclick="showPopupCard('anxiety')">
+          <img src="/images/anxiety.jpeg" />
+        </button>
+        <button onclick="showPopupCard('love')">
+          <img src="/images/lov.jpeg" />
+        </button>
+        <button onclick="showPopupCard('emberassed')">
+          <img src="/images/emberassed.jpeg" />
+        </button>
+        <button onclick="showPopupCard('confused')">
+          <img src="/images/confused.jpeg" />
+        </button>
+        <button onclick="showPopupCard('neutral')">
+          <img src="/images/neutral.jpeg" />
+        </button>
+        <button onclick="showPopupCard('cry')">
+          <img src="/images/cry.jpeg" />
+        </button>
+        <button onclick="showPopupCard('relaxed')">
+          <img src="/images/relaxed.jpeg" />
+        </button>
+        <button onclick="showPopupCard('excited')">
+          <img src="/images/excited.jpeg" />
+        </button>
+        <button onclick="showPopupCard('curious')">
+          <img src="/images/curious.jpeg" />
+        </button>
+        <button onclick="showPopupCard('hopeful')">
+          <img src="/images/hopeful.jpeg" />
+        </button>
+        <button onclick="showPopupCard('grateful')">
+          <img src="/images/grateful.jpeg" />
+        </button>
+        <button onclick="showPopupCard('proud')">
+          <img src="/images/proud.jpeg" />
+        </button>
+        <button onclick="showPopupCard('disappointed')">
+          <img src="/images/disappointed.jpeg" />
+        </button>
+        <button onclick="showPopupCard('sick')">
+          <img src="/images/sick.jpeg" />
+        </button>
+        <button onclick="showPopupCard('inspired')">
+          <img src="/images/inspired.jpeg" />
+        </button>
+        <button onclick="showPopupCard('relieved')">
+          <img src="/images/releived.jpeg" />
+        </button>
+        <button onclick="showPopupCard('lonely')">
+          <img src="/images/lonely.jpeg" />
+        </button>
+      </div>
     </div>
-   <script src="/js/emoji.js"></script>
-</body>
+    <script src="/js/emoji.js"></script>
+  </body>
 </html>
