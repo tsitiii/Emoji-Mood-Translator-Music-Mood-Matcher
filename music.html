@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Music Mood Matcher</title>
+    <link rel="stylesheet" href="styles/music.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <div class="logo">🎵 Mood Music Matcher</div>
+        <a href="index.html" class="back-btn">Back to Home</a>
+      </nav>
+    </header>
+    <main>
+      <section class="mood-select-section">
+        <h1>Find Music for Your Mood</h1>
+        <p>Select your mood to get personalized music recommendations!</p>
+        <div class="mood-buttons">
+          <button data-mood="happy">😊 Happy</button>
+          <button data-mood="sad">😢 Sad</button>
+          <button data-mood="energetic">⚡ Energetic</button>
+          <button data-mood="chill">🌙 Chill</button>
+          <button data-mood="romantic">💕 Romantic</button>
+        </div>
+        <button id="shuffle-btn">🔀 Shuffle Songs</button>
+      </section>
+      <section id="song-list" class="song-list-section">
+      </section>
+    </main>
+    <footer>
+      <div class="footer-content">
+        © 2025 Mood Music Matcher. Made with
+        <span style="color: #e25555">❤️</span>.
+      </div>
+    </footer>
+    <script src="js/music.js"></script>
+  </body>
+</html>

@@ -1,0 +1,146 @@
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #0090ff 60%, #00d9ff 100%);
+  margin: 0;
+  min-height: 100vh;
+}
+
+.navbar {
+  background: #fff;
+  color: #0090ff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 18px 36px;
+  border-radius: 0 0 32px 32px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.08);
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+.back-btn {
+  background: #00d9ff;
+  color: #fff;
+  padding: 8px 18px;
+  border-radius: 16px;
+  text-decoration: none;
+  font-weight: 500;
+  transition: background 0.3s;
+}
+.back-btn:hover {
+  background: #0090ff;
+}
+
+.mood-select-section {
+  text-align: center;
+  margin: 40px auto 24px auto;
+  max-width: 700px;
+  background: #fff;
+  border-radius: 24px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.07);
+  padding: 36px 32px;
+}
+
+.mood-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  margin: 24px 0;
+  flex-wrap: wrap;
+}
+
+.mood-buttons button {
+  background: #00d9ff;
+  color: #fff;
+  font-size: 1.1em;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+  margin-bottom: 10px;
+  transition: background 0.3s;
+  font-weight: bold;
+}
+.mood-buttons button:hover {
+  background: #0090ff;
+}
+
+#shuffle-btn {
+  background: #ffcc00;
+  color: #333;
+  font-size: 1.1em;
+  padding: 10px 28px;
+  border: none;
+  border-radius: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+  cursor: pointer;
+  margin-top: 18px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+#shuffle-btn:hover {
+  background: #ffe066;
+}
+
+.song-list-section {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 32px;
+  justify-content: center;
+  margin: 32px auto;
+  max-width: 900px;
+}
+
+.song-card {
+  background: #e6f7ff;
+  border-radius: 18px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+  padding: 24px 18px;
+  text-align: center;
+  width: 220px;
+  min-width: 180px;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.song-card:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 16px rgba(0,0,0,0.12);
+}
+.song-card img {
+  width: 120px;
+  height: 120px;
+  border-radius: 12px;
+  object-fit: cover;
+  margin-bottom: 12px;
+}
+.song-card h3 {
+  font-size: 1.1em;
+  color: #0090ff;
+  margin: 8px 0 4px 0;
+}
+.song-card p {
+  font-size: 1em;
+  color: #333;
+  margin: 0 0 10px 0;
+}
+.song-card audio {
+  width: 100%;
+  margin-top: 10px;
+}
+
+.footer-content {
+  text-align: center;
+  padding: 18px 0;
+  color: #333;
+  font-size: 1em;
+  background: #f7f7f7;
+  border-top: 1px solid #e6e6e6;
+  margin-top: 40px;
+}
