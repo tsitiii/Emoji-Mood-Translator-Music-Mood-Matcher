@@ -1,4 +1,4 @@
-// Mood to songs mapping
+
 const musicData = {
   happy: [
     { title: "What Makes You Beautiful", artist: "One Direction", file: "musics/One_Direction_What_Makes_You_Beautiful_Official_Video_QJO3ROT_A4E.mp3", cover: "images/music2.jpg" },

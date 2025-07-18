@@ -1,3 +1,62 @@
+@media (max-width: 800px) {
+  .hero-section {
+    flex-direction: column;
+    padding: 32px 10px 24px 10px;
+    border-radius: 0 0 24px 24px;
+    box-shadow: none;
+    max-width: 100%;
+    margin: 0;
+  }
+  .hero-text {
+    margin-right: 0;
+    text-align: center;
+  }
+  .hero-text h1 {
+    font-size: 2em;
+  }
+  .hero-text p {
+    font-size: 1em;
+  }
+  .hero-image img {
+    max-width: 220px;
+    height: auto;
+    margin: 0 auto;
+  }
+  .how-it-works-card {
+    padding: 24px 8px;
+    max-width: 98vw;
+  }
+  .steps-container {
+    flex-direction: column;
+    gap: 18px;
+    align-items: center;
+  }
+  .step {
+    width: 90vw;
+    min-width: unset;
+    padding: 16px 8px;
+  }
+  .fun-fact {
+    max-width: 98vw;
+    padding: 12px 8px;
+    font-size: 1em;
+  }
+  .footer-content {
+    font-size: 0.95em;
+    padding: 12px 0;
+  }
+  .navbar {
+    flex-direction: column;
+    padding: 12px 8px;
+    border-radius: 0 0 18px 18px;
+  }
+  .navbar .nav-links {
+    gap: 12px;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+}
 
 
 .navbar {
